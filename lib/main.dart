@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider<CounterBloc>(
       create: (context) => CounterBloc(),
       child: MaterialApp(
-        title: 'MyCounter Bloc',
+        title: 'Counter Bloc',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
